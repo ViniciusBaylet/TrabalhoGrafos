@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1718480588 source:c:\users\vinicius baylet\documents\trabalhografoscode2\trabalhografos\main.cpp
+	"Graph.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1718480104 c:\users\vinicius baylet\documents\trabalhografoscode2\trabalhografos\graph.h
+	"Node.h"
+	"Defines.h"
+	<set>
+
+1718478714 c:\users\vinicius baylet\documents\trabalhografoscode2\trabalhografos\node.h
+	"Edge.h"
+	"Defines.h"
+
+1718478722 c:\users\vinicius baylet\documents\trabalhografoscode2\trabalhografos\edge.h
+	"Defines.h"
+
+1718478627 c:\users\vinicius baylet\documents\trabalhografoscode2\trabalhografos\defines.h
+	<algorithm>
+	<cmath>
+	<fstream>
+	<iomanip>
+	<iostream>
+	<utility>
+	<vector>
+
+1718479929 source:c:\users\vinicius baylet\documents\trabalhografoscode2\trabalhografos\graph.cpp
+	"Graph.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<queue>
+	<limits>
+	<set>
+	<stack>
+

@@ -1,0 +1,17 @@
+Para compilar o seguinte projeto, deve-se digitar, no terminal do projeto, os seguintes comandos:
+
+g++ -o program ./Sources/*.cpp -I./Headers
+
+./program instanceName.txt output.txt 
+
+
+Onde "instanceName" representa o nome do arquivo em que deseja-se calcular os algoritmos.
+
+Foi criado um menu de opções, para que não fosse necessário, digitar em linha de execução, qual algoritmo deseja-se calcular. Portanto, basta selecionar alguma das opções:
+
+1 - Algoritmo Guloso
+2 - Algoritmo Guloso Randomizado Adaptativo
+3 - Algoritmo Guloso Randomizado Adaptativo Reativo
+0 - Sair
+
+que o algoritmo será calculado de acordo com a sua escolha.

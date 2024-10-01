@@ -1,0 +1,43 @@
+ ----- IMPRIMINDO O GRAFO -----
+
+Numero de vertices: 5
+Numero de arestas: 6
+Vertice: 1 (Peso: 0)
+  - Destino: 4 (Peso: 1)
+  - Destino: 2 (Peso: 2)
+Vertice: 2 (Peso: 0)
+  - Destino: 5 (Peso: 3)
+Vertice: 5 (Peso: 0)
+  - Destino: 3 (Peso: 1)
+Vertice: 3 (Peso: 0)
+  - Destino: 2 (Peso: 2)
+Vertice: 4 (Peso: 0)
+  - Destino: 5 (Peso: 2)
+
+Fecho Transitivo Direto do vertice 1:  1 4 2 5 3
+Fecho Transitivo Indireto do vertice 1:  1
+Fecho Transitivo Indireto do vertice 3:  1 4 2 5 3
+Menor caminho Dijkstra entre os vertices 1 e 5: 1 4 5
+
+Menor caminho Dijkstra entre os vertices 2 e 4: Nao existe caminho entre os nos 2 e 4.
+
+Menor caminho Dijkstra entre os vertices 1 e 3: 1 4 5 3
+
+Menor caminho Floyd entre os vertices 1 e 5: 1 4 5
+
+Nao existe caminho entre os nos 2 e 4.
+Menor caminho Floyd entre os vertices 1 e 3: 1 4 5 3
+
+Árvore Geradora Mínima (Prim):
+Aresta: (1 -> 4) com peso: 1
+Aresta: (1 -> 2) com peso: 2
+Aresta: (4 -> 5) com peso: 2
+Aresta: (5 -> 3) com peso: 1
+
+Nenhuma aresta foi adicionada a MST.
+Caminhamento em Profundidade do vertice 1:  1 2 5 3 4
+Raio: 4
+Diametro: 5
+Centro: 2 1 
+Periferia: 4 3 
+Pontos de articulacao: 4 5
